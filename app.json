@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "zela-territorio",
+    "name": "Zela Território",
     "slug": "zela-territorio",
+    "description": "Painel de Inteligência Territorial: indicadores, alertas preditivos explicados e apoio à decisão do gestor público.",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -12,7 +13,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#0F766E",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
@@ -21,8 +22,11 @@
     },
     "web": {
       "bundler": "metro",
-      "output": "server",
-      "favicon": "./assets/images/favicon.png"
+      "output": "single",
+      "favicon": "./assets/images/favicon.png",
+      "lang": "pt-BR",
+      "themeColor": "#0F766E",
+      "shortName": "Zela Território"
     },
     "plugins": [
       "expo-router",
@@ -31,7 +35,8 @@
         {
           "image": "./assets/images/splash-icon.png",
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "imageWidth": 160,
+          "backgroundColor": "#0F766E"
         }
       ]
     ],
